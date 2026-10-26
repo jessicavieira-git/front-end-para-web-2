@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Idioma da página: português do Brasil -->
+<html lang="pt-br">
+
+<head>
+    <!-- Codificação para acentuação correta -->
+    <meta charset="UTF-8">
+
+    <!-- Escala da tela para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título exibido na aba do navegador -->
+    <title>Meu Site</title>
+
+    <!-- Liga o CSS externo (método recomendado) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho fixo no topo -->
+    <header>
+        <h1>Nome do Site</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#blog">Blog</a>
+        </nav>
+    </header>
+
+    <main id="home">
+        <!-- Seção principal -->
+        <section id="blog">
+            <h2>Últimos Artigos</h2>
+
+            <!-- Artigo simples (usa só o estilo da tag article) -->
+            <article>
+                <h3>Título da Postagem</h3>
+                <p>Texto do primeiro parágrafo da publicação.</p>
+            </article>
+
+            <!-- Cartão de perfil (Passos 1 a 5 da aula de CSS) -->
+            <article class="cartao-perfil">
+                <h2 class="cartao-titulo">Desenvolvedor Back-end</h2>
+                <p class="cartao-subtitulo">Especialista em desenvolvimento backend com foco em Python e Node.js.</p>
+                <p class="cartao-descricao">Texto de exemplo: troque pela sua descrição. Atua em projetos complexos e
+                    lidera equipes de desenvolvimento.</p>
+                <div class="cartao-status">Disponível para projetos</div>
+            </article>
+
+            <!-- Imagem com legenda (aula de imagens) -->
+            <figure class="cartao-figura">
+                <img src="assets/assetsCapa.jpg" alt="Vista aérea de uma floresta no outono" width="600" height="400"
+                    loading="lazy">
+                <figcaption>Legenda da imagem: troque pelo seu texto.</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

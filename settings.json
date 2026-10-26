@@ -1,0 +1,31 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "code-runner.runInTerminal": true,
+    "git.autofetch": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "SynthWave '84",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "on",
+        "strings": "off"
+    }
+}
