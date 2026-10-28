@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+  <title id="t">Bolo de chocolate com morango e laço vermelho</title>
+  <desc id="d">Bolo em tons de marrom com cobertura de chocolate, um morango no topo e um laço vermelho na frente.</desc>
+
+  <!-- prato e sombra -->
+  <ellipse cx="200" cy="344" rx="165" ry="24" fill="#E8D5B8"/>
+  <ellipse cx="200" cy="338" rx="150" ry="20" fill="#F4E8D4"/>
+  <ellipse cx="200" cy="334" rx="122" ry="14" fill="#5A3622" opacity=".25"/>
+
+  <!-- corpo do bolo -->
+  <path d="M90 196 V322 C90 340 310 340 310 322 V196 Z" fill="#8B5A3C"/>
+  <!-- recheio de creme -->
+  <path d="M90 252 H310 V268 C310 284 90 284 90 268 Z" fill="#F1DFC6"/>
+  <path d="M90 252 C90 270 310 270 310 252 V246 C310 262 90 262 90 246 Z" fill="#C69C6D"/>
+  <!-- sombra lateral -->
+  <path d="M90 196 V322 C90 331 120 336 150 337 V200 Z" fill="#5A3622" opacity=".18"/>
+  <path d="M310 196 V322 C310 331 280 336 250 337 V200 Z" fill="#3E2418" opacity=".16"/>
+
+  <!-- topo e cobertura -->
+  <ellipse cx="200" cy="196" rx="110" ry="32" fill="#4A2A1A"/>
+  <path d="M90 196 C90 214 90 214 96 222 C102 232 112 232 116 222 C120 214 120 206 124 214
+           C128 232 144 236 150 222 C154 212 156 210 160 220 C166 240 184 242 188 224
+           C190 214 194 212 198 224 C204 244 222 242 226 226 C229 214 234 212 238 222
+           C244 236 258 234 262 220 C264 212 268 210 272 220 C278 236 292 232 298 222
+           C302 214 304 208 310 196 C310 228 90 228 90 196 Z" fill="#4A2A1A"/>
+  <ellipse cx="200" cy="190" rx="110" ry="30" fill="#6B3E26"/>
+  <ellipse cx="170" cy="184" rx="52" ry="10" fill="#8B5A3C" opacity=".55"/>
+
+  <!-- fita vermelha -->
+  <path d="M90 288 C90 304 310 304 310 288 V306 C310 322 90 322 90 306 Z" fill="#B3202A"/>
+  <path d="M90 288 C90 304 310 304 310 288 V294 C310 310 90 310 90 294 Z" fill="#D7263D"/>
+
+  <!-- laço vermelho -->
+  <path d="M200 302 C150 262 106 292 144 322 C164 336 190 320 200 302 Z" fill="#D7263D"/>
+  <path d="M200 302 C250 262 294 292 256 322 C236 336 210 320 200 302 Z" fill="#D7263D"/>
+  <path d="M200 302 C168 284 138 298 154 318 C168 326 186 318 200 302 Z" fill="#B3202A"/>
+  <path d="M200 302 C232 284 262 298 246 318 C232 326 214 318 200 302 Z" fill="#B3202A"/>
+  <path d="M192 310 L170 352 L192 344 L202 322 Z" fill="#B3202A"/>
+  <path d="M208 310 L230 352 L208 344 L198 322 Z" fill="#9B1B25"/>
+  <ellipse cx="200" cy="308" rx="14" ry="13" fill="#E23B4D"/>
+  <ellipse cx="196" cy="304" rx="5" ry="4" fill="#F28A94" opacity=".7"/>
+
+  <!-- morango -->
+  <path d="M200 206 C170 200 160 168 172 148 C180 134 220 134 228 148 C240 168 230 200 200 206 Z" fill="#D7263D"/>
+  <path d="M200 206 C226 198 236 170 226 152 C236 170 226 196 200 206 Z" fill="#B3202A" opacity=".6"/>
+  <g fill="#F8D98D">
+    <ellipse cx="190" cy="160" rx="2" ry="3"/><ellipse cx="208" cy="158" rx="2" ry="3"/>
+    <ellipse cx="200" cy="172" rx="2" ry="3"/><ellipse cx="184" cy="180" rx="2" ry="3"/>
+    <ellipse cx="216" cy="178" rx="2" ry="3"/><ellipse cx="200" cy="190" rx="2" ry="3"/>
+    <ellipse cx="176" cy="166" rx="2" ry="3"/><ellipse cx="224" cy="164" rx="2" ry="3"/>
+  </g>
+  <ellipse cx="184" cy="152" rx="6" ry="9" fill="#fff" opacity=".28" transform="rotate(20 184 152)"/>
+  <!-- folhinhas -->
+  <path d="M200 142 C186 128 172 134 164 146 C180 148 192 148 200 142 Z" fill="#5B7F3A"/>
+  <path d="M200 142 C214 128 228 134 236 146 C220 148 208 148 200 142 Z" fill="#4A6B2F"/>
+  <path d="M200 142 C194 130 196 120 200 114 C204 120 206 130 200 142 Z" fill="#6B9145"/>
+</svg>
