@@ -164,3 +164,90 @@
             padding-bottom: 8px;
             font-weight: bold;
         }
+        
+        /* ---------- AULA 7: formulário ---------- */
+        .campo {
+            margin-bottom: 20px;
+        }
+
+        .campo label,
+        legend {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .campo input[type="text"],
+        .campo input[type="email"],
+        .campo input[type="tel"],
+        .campo select,
+        .campo textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 18px;
+            border: 2px solid #8a2b57;
+            border-radius: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        fieldset {
+            border: 2px solid #8a2b57;
+            border-radius: 8px;
+        }
+
+        .campo label.opcao {
+            display: inline-block;
+            font-weight: normal;
+            margin-right: 16px;
+        }
+
+        /* contorno visível para quem navega só com a tecla Tab */
+        a:focus,
+        input:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+            outline: 4px solid #1b4dd8;
+            outline-offset: 2px;
+        }
+
+        /* ---------- rodapé ---------- */
+        footer {
+            background-color: #8a2b57;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 24px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* ---------- AULA 8: responsivo (telas até 700 px) ---------- */
+        @media (max-width: 700px) {
+            body {
+                font-size: 17px;
+            }
+
+            .banner h1 {
+                font-size: 34px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            section {
+                padding: 32px 16px;
+            }
+
+            .tabela th,
+            .tabela td {
+                padding: 8px;
+            }
+        }
+    </style>
+
+</head>
+<body>
